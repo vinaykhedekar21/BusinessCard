@@ -1,0 +1,101 @@
+{
+	"type": "Collection",
+	"properties": {
+		"FirstName": {
+			"name": "FirstName",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "FirstName",
+			"order": 0
+		},
+		"LastName": {
+			"name": "LastName",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "LastName",
+			"order": 1
+		},
+		"Email": {
+			"name": "Email",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "Email",
+			"order": 2
+		},
+		"PhoneNumber": {
+			"name": "PhoneNumber",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "PhoneNumber",
+			"order": 3
+		},
+		"Username": {
+			"name": "Username",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "Username",
+			"order": 4
+		},
+		"Password": {
+			"name": "Password",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "Password",
+			"order": 5
+		},
+		"ConfirmPassword": {
+			"name": "ConfirmPassword",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "ConfirmPassword",
+			"order": 6
+		},
+		"PhotoPath": {
+			"name": "PhotoPath",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "PhotoPath",
+			"order": 7
+		},
+		"Address": {
+			"name": "Address",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "Address",
+			"order": 8
+		},
+		"Occupation": {
+			"name": "Occupation",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "Occupation",
+			"order": 9
+		},
+		"PersonalInfo": {
+			"name": "PersonalInfo",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "PersonalInfo",
+			"order": 10
+		},
+		"TemplatePath": {
+			"name": "TemplatePath",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "TemplatePath",
+			"order": 11
+		}
+	}
+}

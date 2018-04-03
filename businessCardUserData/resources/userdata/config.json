@@ -1,0 +1,109 @@
+{
+	"type": "Collection",
+	"properties": {
+		"FIRSTNAME": {
+			"name": "FIRSTNAME",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "FIRSTNAME",
+			"order": 0
+		},
+		"LASTNAME": {
+			"name": "LASTNAME",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "LASTNAME",
+			"order": 1
+		},
+		"EMAIL": {
+			"name": "EMAIL",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "EMAIL",
+			"order": 2
+		},
+		"USERNAME": {
+			"name": "USERNAME",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "USERNAME",
+			"order": 3
+		},
+		"PASSWORD": {
+			"name": "PASSWORD",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "PASSWORD",
+			"order": 4
+		},
+		"CONFIRMPASSWORD": {
+			"name": "CONFIRMPASSWORD",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "CONFIRMPASSWORD",
+			"order": 5
+		},
+		"GENDER": {
+			"name": "GENDER",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "GENDER",
+			"order": 6
+		},
+		"PHOTO": {
+			"name": "PHOTO",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "PHOTO",
+			"order": 7
+		},
+		"LOCATION": {
+			"name": "LOCATION",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "LOCATION",
+			"order": 8
+		},
+		"INTEREST": {
+			"name": "INTEREST",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "INTEREST",
+			"order": 9
+		},
+		"OCCUPATION": {
+			"name": "OCCUPATION",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "OCCUPATION",
+			"order": 10
+		},
+		"PAGETODO": {
+			"name": "PAGETODO",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "PAGETODO",
+			"order": 11
+		},
+		"TODOLINK": {
+			"name": "TODOLINK",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "TODOLINK",
+			"order": 12
+		}
+	}
+}

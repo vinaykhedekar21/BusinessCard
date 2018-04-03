@@ -1,3 +1,10 @@
+/*@author:VinayKhedekar.
+* This file handles all the API calls for the Deployd REST API's.
+* 1. Add user signUp data to database.
+* 2. Validate existing and new users
+* 3. Retrive data for user from database.
+* 4. Update User data using PUT API's  
+*/
 (function(window) {
   "use strict";
   var App = window.App || {};

@@ -1,3 +1,6 @@
+/*@author:VinayKhedekar.
+* This file handles all the event handlers.
+*/
 (function(window) {
   "use strict";
   var App = window.App || {};
@@ -27,7 +30,7 @@
       fn(data);
       this.reset();
       this.elements[0].focus();
-      
+
     });
   };
 

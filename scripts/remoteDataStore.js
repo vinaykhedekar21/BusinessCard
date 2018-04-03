@@ -1,3 +1,12 @@
+/*@author:VinayKhedekar.
+* This file handles all the API's call including add/update/remove/get data.
+*
+* 1. POST - add user signup data to database
+* 2. PUT - update user data with key as 'UserName'
+* 3. DELETE- Delete user data with user name and ID as a Key
+* 4. GET - Get user data using usename as a key
+*/
+
 (function(window) {
   "use strict";
   var App = window.App || {};

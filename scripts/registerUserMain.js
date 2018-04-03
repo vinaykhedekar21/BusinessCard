@@ -1,3 +1,11 @@
+/*@author:VinayKhedekar.
+* Main javascript for all the modules. It has all selector and event handler.
+* Contains logic to dynamically render user data for respective users
+* 1. user signUp selector for handling user sign-in events.
+* 2. handlers for existing and new users
+* 3. Dynamically retrive template data for user from database.
+* 4. Remote data store 'Deployd' interface 
+*/
 (function(window) {
   "use strict";
   var SIGNIN_SELECTOR = "[user-signin-data='form']";
@@ -79,9 +87,7 @@ $(TEMPLATE2_SELECTOR).ready(function() {
   var currentUser = document.cookie;
   //alert('Inside template2='+currentUser);
   console.log("Template2 on-load");
-  //var templatePath = window.location.pathname;
   var templatePath = location.pathname.substr(0);
-  //if (templatePath != "/") {
   if(templatePath.startsWith("/templates")){
     //alert('templatePath='+templatePath);
     addUser.updateTemplatePath.call(addUser, currentUser, templatePath);

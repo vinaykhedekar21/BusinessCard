@@ -1,3 +1,7 @@
+/*@author:VinayKhedekar.
+* This file handles all the data store modules.
+*/
+
 (function(window) {
   "use strict";
   var App = window.App || {};
@@ -17,7 +21,7 @@
   DataStore.prototype.remove = function (key) {
     delete this.data[key];
   };
-  
+
   App.DataStore = DataStore;
   window.App = App;
 })(window);

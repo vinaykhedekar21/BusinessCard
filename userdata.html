@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<!--@author:VinayKhedekar.
+* Interface for User Information including Photo, Address, Occupation, Personal Note
+*/-->
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -135,7 +138,6 @@
       <span class="step"></span>
     </div>
   </form>
-
   <script>
 
     var currentTab = 0; // Current tab is set to be the first tab (0)
@@ -144,9 +146,7 @@
     //var $ = window.jQuery;
     var params = window.location.search.split("?")[1];
     var username = decodeURIComponent(params.split("=")[1]);
-    //$.cookie("username", username);
-    //var cookie=$.cookie("username");
-    //alert('coookie Username='+cookie);
+
     document.cookie = "; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
     document.cookie = username;
     //alert('coookie Username='+cookie);
